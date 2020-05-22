@@ -1,12 +1,22 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Projects from "../pages/Projects";
 
 class App extends Component {
-	state = {};
 	render() {
 		return (
-			<div>
-				<h3>hello</h3>
-			</div>
+			<Router>
+				<Navbar />
+				<div>
+					<h3>hello</h3>
+				</div>
+				<Footer />
+			</Router>
 		);
 	}
 }
