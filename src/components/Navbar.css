@@ -1,3 +1,7 @@
 .navbar {
-	background-color: rgb(158, 111, 170);
+	background-image: url("../assets/nav-image.png");
+}
+
+.navbar ul {
+	list-style-type: none;
 }

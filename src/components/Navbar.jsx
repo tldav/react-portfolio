@@ -4,10 +4,17 @@ import "./Navbar.css";
 const Navbar = () => {
 	return (
 		<nav className="navbar">
+			<h1>Thomas L. Davis</h1>
 			<ul>
-				<li>About</li>
-				<li>Projects</li>
-				<li>Contact</li>
+				<li>
+					<a href="/">About</a>
+				</li>
+				<li>
+					<a href="/projects">Projects</a>
+				</li>
+				<li>
+					<a href="/contact">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	);

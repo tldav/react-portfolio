@@ -12,9 +12,11 @@ class App extends Component {
 		return (
 			<Router>
 				<Navbar />
-				<div>
-					<h3>hello</h3>
-				</div>
+				<Switch>
+					<Route path="/" exact component={About} />
+					<Route path="/projects" component={Projects} />
+					<Route path="/contact" component={Contact} />
+				</Switch>
 				<Footer />
 			</Router>
 		);
