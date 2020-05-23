@@ -3,8 +3,29 @@
 	bottom: 0;
 	width: 100%;
 	background-image: url("../assets/nav-image.png");
+	padding: 10px 0;
 }
 
-.footer h3 {
-	text-align: center;
+.footer ul {
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 0;
+	justify-content: center;
+}
+
+.footer li {
+	padding: 0 45px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.footer a {
+	color: #fff;
+	background-image: url("../assets/bg-image.png");
+	padding: 5px 10px;
+}
+
+.footer a:hover {
+	color: violet;
 }
