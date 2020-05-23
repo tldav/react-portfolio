@@ -1,0 +1,10 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-image: url("../assets/nav-image.png");
+}
+
+.footer h3 {
+	text-align: center;
+}

@@ -1,3 +1,24 @@
 body {
 	background-image: url("../assets/bg-image.png");
 }
+
+.my-container {
+	padding: 50px;
+	margin-top: 50px;
+}
+
+.title {
+	color: #fff;
+}
+
+.stage {
+	background-image: url("../assets/nav-image.png");
+	padding: 20px;
+	border-radius: 20px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 1.7em;
+}
