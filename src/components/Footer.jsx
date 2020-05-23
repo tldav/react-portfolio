@@ -7,10 +7,10 @@ const Footer = () => {
 		<div className="footer">
 			<ul>
 				<li>
-					<a href="https://github.com/tldav">Github</a>
+					<a href="https://www.linkedin.com/in/tldav/">Linkedin</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/tldav/">Linkedin</a>
+					<a href="https://github.com/tldav">Github</a>
 				</li>
 				<li>
 					<a href={resume}>Resume</a>

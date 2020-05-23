@@ -3,7 +3,7 @@
 	bottom: 0;
 	width: 100%;
 	background-image: url("../assets/nav-image.png");
-	padding: 10px 0;
+	padding-bottom: 10px;
 }
 
 .footer ul {
@@ -27,5 +27,5 @@
 }
 
 .footer a:hover {
-	color: violet;
+	color: rgb(158, 113, 158);
 }
