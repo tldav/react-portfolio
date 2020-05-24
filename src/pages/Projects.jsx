@@ -1,45 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import yodascope from "../assets/yodascope.PNG";
+import projectInfo from "../project-info.json";
 
 const Projects = () => {
 	return (
 		<div>
 			<h2 className="title">My Work</h2>
 			<div className="stage">
-				<div className="project-nav mb-5">
+				<div className="project-nav mb-4">
 					<ul>
 						<li>
-							<a href="/">YodaScope</a>
+							<button>YodaScope</button>
 						</li>
 						<li>
-							<a href="/projects">plumm.it</a>
+							<button>plumm.it</button>
 						</li>
 						<li>
-							<a href="/contact">Fitness Tracker</a>
+							<button>Fitness Tracker</button>
 						</li>
 					</ul>
 				</div>
 				<div className="row ">
 					<div className="col-12">
-						<div className="row mb-4">
+						<div className="row mb-4 project-name">
 							<div className="col-12 d-flex justify-content-center">
-								<h2>YodaScope</h2>
+								<h1>{projectInfo[0].name}</h1>
 							</div>
 						</div>
 						<div className="row">
 							<div className="col-12 d-flex justify-content-center mb-4">
 								<h3 className="description">
-									Check your Horoscope in Yoda Speech. Created
-									using JavaScript, Tailwind CSS, third party
-									APIs - Aztro and Yodish{" "}
+									{projectInfo[0].description}
 								</h3>
 							</div>
 						</div>
 						<div className="row mb-4 d-flex align-items-center">
 							<div className="col-8 d-flex">
 								<img
-									src={yodascope}
-									alt="sdf"
+									src={projectInfo[0].image}
+									alt={projectInfo[0].name}
 									style={{
 										maxWidth: "90%",
 										height: "auto",
