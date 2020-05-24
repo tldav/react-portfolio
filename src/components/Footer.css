@@ -19,13 +19,3 @@
 	font-weight: bold;
 	color: black;
 }
-
-.footer a {
-	color: #fff;
-	background-image: url("../assets/bg-image.png");
-	padding: 5px 10px;
-}
-
-.footer a:hover {
-	color: rgb(158, 113, 158);
-}

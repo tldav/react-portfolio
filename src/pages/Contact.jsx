@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
 	return (
 		<div>
-			<h2 className="title">Contact</h2>
-			<div className="stage">
+			<h2 className="title">Contact Me</h2>
+			<div className="stage" style={{ paddingTop: "20px" }}>
 				<form>
 					<div class="form-group">
 						<label for="exampleInputEmail1">Name</label>
@@ -26,7 +26,11 @@ const Contact = () => {
 						</textarea>
 					</div>
 
-					<button type="submit" class="btn">
+					<button
+						type="submit"
+						class="btn"
+						style={{ borderRadius: "0" }}
+					>
 						Submit
 					</button>
 				</form>

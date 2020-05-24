@@ -5,7 +5,7 @@ const About = () => {
 	return (
 		<div>
 			<h2 className="title">About</h2>
-			<div className="stage">
+			<div className="stage" style={{ paddingTop: "20px" }}>
 				<img
 					src={me}
 					alt="Thomas Davis"
